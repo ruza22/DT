@@ -1,0 +1,468 @@
+Logistic regression:
+---------
+C = 0.42
+---------
+Disease:
+              precision    recall  f1-score   support
+
+         1.0       0.11      1.00      0.19         7
+         2.0       0.00      0.00      0.00        59
+
+    accuracy                           0.11        66
+   macro avg       0.05      0.50      0.10        66
+weighted avg       0.01      0.11      0.02        66
+
+#########################################
+Risk:
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00        15
+         1.0       0.40      0.81      0.54        27
+         2.0       0.36      0.17      0.23        24
+
+    accuracy                           0.39        66
+   macro avg       0.25      0.33      0.26        66
+weighted avg       0.30      0.39      0.30        66
+
+#########################################
+Mutation:
+              precision    recall  f1-score   support
+
+         0.0       0.62      1.00      0.77        41
+         1.0       0.00      0.00      0.00        13
+         2.0       0.00      0.00      0.00        12
+
+    accuracy                           0.62        66
+   macro avg       0.21      0.33      0.26        66
+weighted avg       0.39      0.62      0.48        66
+
+#########################################
+Logistic regression:
+---------
+C = 0.6
+---------
+Disease:
+              precision    recall  f1-score   support
+
+         1.0       0.11      1.00      0.19         7
+         2.0       0.00      0.00      0.00        59
+
+    accuracy                           0.11        66
+   macro avg       0.05      0.50      0.10        66
+weighted avg       0.01      0.11      0.02        66
+
+#########################################
+Risk:
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00        15
+         1.0       0.41      1.00      0.58        27
+         2.0       0.00      0.00      0.00        24
+
+    accuracy                           0.41        66
+   macro avg       0.14      0.33      0.19        66
+weighted avg       0.17      0.41      0.24        66
+
+#########################################
+Mutation:
+              precision    recall  f1-score   support
+
+         0.0       0.62      1.00      0.77        41
+         1.0       0.00      0.00      0.00        13
+         2.0       0.00      0.00      0.00        12
+
+    accuracy                           0.62        66
+   macro avg       0.21      0.33      0.26        66
+weighted avg       0.39      0.62      0.48        66
+
+#########################################
+Logistic regression:
+---------
+C = 0.8
+---------
+Disease:
+              precision    recall  f1-score   support
+
+         1.0       0.11      1.00      0.19         7
+         2.0       0.00      0.00      0.00        59
+
+    accuracy                           0.11        66
+   macro avg       0.05      0.50      0.10        66
+weighted avg       0.01      0.11      0.02        66
+
+#########################################
+Risk:
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00        15
+         1.0       0.41      1.00      0.58        27
+         2.0       0.00      0.00      0.00        24
+
+    accuracy                           0.41        66
+   macro avg       0.14      0.33      0.19        66
+weighted avg       0.17      0.41      0.24        66
+
+#########################################
+Mutation:
+              precision    recall  f1-score   support
+
+         0.0       0.62      1.00      0.77        41
+         1.0       0.00      0.00      0.00        13
+         2.0       0.00      0.00      0.00        12
+
+    accuracy                           0.62        66
+   macro avg       0.21      0.33      0.26        66
+weighted avg       0.39      0.62      0.48        66
+
+#########################################
+Logistic regression:
+---------
+C = 1
+---------
+Disease:
+              precision    recall  f1-score   support
+
+         1.0       0.11      1.00      0.19         7
+         2.0       0.00      0.00      0.00        59
+
+    accuracy                           0.11        66
+   macro avg       0.05      0.50      0.10        66
+weighted avg       0.01      0.11      0.02        66
+
+#########################################
+Risk:
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00        15
+         1.0       0.42      0.93      0.57        27
+         2.0       0.50      0.12      0.20        24
+
+    accuracy                           0.42        66
+   macro avg       0.31      0.35      0.26        66
+weighted avg       0.35      0.42      0.31        66
+
+#########################################
+Mutation:
+              precision    recall  f1-score   support
+
+         0.0       0.62      1.00      0.77        41
+         1.0       0.00      0.00      0.00        13
+         2.0       0.00      0.00      0.00        12
+
+    accuracy                           0.62        66
+   macro avg       0.21      0.33      0.26        66
+weighted avg       0.39      0.62      0.48        66
+
+#########################################
+SVM:
+---------
+Features selected = 5
+---------
+Disease:
+              precision    recall  f1-score   support
+
+         1.0       0.00      0.00      0.00         7
+         2.0       0.89      1.00      0.94        59
+
+    accuracy                           0.89        66
+   macro avg       0.45      0.50      0.47        66
+weighted avg       0.80      0.89      0.84        66
+
+#########################################
+Risk:
+              precision    recall  f1-score   support
+
+         0.0       1.00      0.07      0.12        15
+         1.0       0.43      1.00      0.60        27
+         2.0       1.00      0.08      0.15        24
+
+    accuracy                           0.45        66
+   macro avg       0.81      0.38      0.29        66
+weighted avg       0.77      0.45      0.33        66
+
+#########################################
+Mutation:
+              precision    recall  f1-score   support
+
+         0.0       0.62      1.00      0.77        41
+         1.0       0.00      0.00      0.00        13
+         2.0       0.00      0.00      0.00        12
+
+    accuracy                           0.62        66
+   macro avg       0.21      0.33      0.26        66
+weighted avg       0.39      0.62      0.48        66
+
+#########################################
+SVM:
+---------
+Features selected = 10
+---------
+Disease:
+              precision    recall  f1-score   support
+
+         1.0       0.00      0.00      0.00         7
+         2.0       0.89      1.00      0.94        59
+
+    accuracy                           0.89        66
+   macro avg       0.45      0.50      0.47        66
+weighted avg       0.80      0.89      0.84        66
+
+#########################################
+Risk:
+              precision    recall  f1-score   support
+
+         0.0       1.00      0.13      0.24        15
+         1.0       0.46      1.00      0.63        27
+         2.0       1.00      0.21      0.34        24
+
+    accuracy                           0.52        66
+   macro avg       0.82      0.45      0.40        66
+weighted avg       0.78      0.52      0.44        66
+
+#########################################
+Mutation:
+              precision    recall  f1-score   support
+
+         0.0       0.62      1.00      0.77        41
+         1.0       0.00      0.00      0.00        13
+         2.0       0.00      0.00      0.00        12
+
+    accuracy                           0.62        66
+   macro avg       0.21      0.33      0.26        66
+weighted avg       0.39      0.62      0.48        66
+
+#########################################
+SVM:
+---------
+Features selected = 20
+---------
+Disease:
+              precision    recall  f1-score   support
+
+         1.0       1.00      0.29      0.44         7
+         2.0       0.92      1.00      0.96        59
+
+    accuracy                           0.92        66
+   macro avg       0.96      0.64      0.70        66
+weighted avg       0.93      0.92      0.90        66
+
+#########################################
+Risk:
+              precision    recall  f1-score   support
+
+         0.0       1.00      0.33      0.50        15
+         1.0       0.68      0.96      0.80        27
+         2.0       0.91      0.88      0.89        24
+
+    accuracy                           0.79        66
+   macro avg       0.87      0.72      0.73        66
+weighted avg       0.84      0.79      0.77        66
+
+#########################################
+Mutation:
+              precision    recall  f1-score   support
+
+         0.0       0.67      1.00      0.80        41
+         1.0       0.00      0.00      0.00        13
+         2.0       1.00      0.42      0.59        12
+
+    accuracy                           0.70        66
+   macro avg       0.56      0.47      0.46        66
+weighted avg       0.60      0.70      0.61        66
+
+#########################################
+SVM:
+---------
+Features selected = 100
+---------
+Disease:
+              precision    recall  f1-score   support
+
+         1.0       1.00      0.57      0.73         7
+         2.0       0.95      1.00      0.98        59
+
+    accuracy                           0.95        66
+   macro avg       0.98      0.79      0.85        66
+weighted avg       0.96      0.95      0.95        66
+
+#########################################
+Risk:
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00        15
+         1.0       1.00      1.00      1.00        27
+         2.0       1.00      1.00      1.00        24
+
+    accuracy                           1.00        66
+   macro avg       1.00      1.00      1.00        66
+weighted avg       1.00      1.00      1.00        66
+
+#########################################
+Mutation:
+              precision    recall  f1-score   support
+
+         0.0       0.93      1.00      0.96        41
+         1.0       1.00      0.85      0.92        13
+         2.0       1.00      0.92      0.96        12
+
+    accuracy                           0.95        66
+   macro avg       0.98      0.92      0.95        66
+weighted avg       0.96      0.95      0.95        66
+
+#########################################
+XGB:
+---------
+Features selected = 5
+---------
+Disease:
+              precision    recall  f1-score   support
+
+         1.0       0.78      1.00      0.88         7
+         2.0       1.00      0.97      0.98        59
+
+    accuracy                           0.97        66
+   macro avg       0.89      0.98      0.93        66
+weighted avg       0.98      0.97      0.97        66
+
+#########################################
+Risk:
+              precision    recall  f1-score   support
+
+         0.0       0.69      0.60      0.64        15
+         1.0       0.69      0.89      0.77        27
+         2.0       0.89      0.67      0.76        24
+
+    accuracy                           0.74        66
+   macro avg       0.76      0.72      0.73        66
+weighted avg       0.76      0.74      0.74        66
+
+#########################################
+Mutation:
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.95      0.91        41
+         1.0       0.70      0.54      0.61        13
+         2.0       0.82      0.75      0.78        12
+
+    accuracy                           0.83        66
+   macro avg       0.79      0.75      0.77        66
+weighted avg       0.83      0.83      0.83        66
+
+#########################################
+XGB:
+---------
+Features selected = 10
+---------
+Disease:
+              precision    recall  f1-score   support
+
+         1.0       0.75      0.86      0.80         7
+         2.0       0.98      0.97      0.97        59
+
+    accuracy                           0.95        66
+   macro avg       0.87      0.91      0.89        66
+weighted avg       0.96      0.95      0.96        66
+
+#########################################
+Risk:
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.87      0.87        15
+         1.0       0.75      0.89      0.81        27
+         2.0       0.89      0.71      0.79        24
+
+    accuracy                           0.82        66
+   macro avg       0.84      0.82      0.82        66
+weighted avg       0.83      0.82      0.82        66
+
+#########################################
+Mutation:
+              precision    recall  f1-score   support
+
+         0.0       0.87      1.00      0.93        41
+         1.0       1.00      0.85      0.92        13
+         2.0       1.00      0.67      0.80        12
+
+    accuracy                           0.91        66
+   macro avg       0.96      0.84      0.88        66
+weighted avg       0.92      0.91      0.90        66
+
+#########################################
+XGB:
+---------
+Features selected = 20
+---------
+Disease:
+              precision    recall  f1-score   support
+
+         1.0       0.88      1.00      0.93         7
+         2.0       1.00      0.98      0.99        59
+
+    accuracy                           0.98        66
+   macro avg       0.94      0.99      0.96        66
+weighted avg       0.99      0.98      0.99        66
+
+#########################################
+Risk:
+              precision    recall  f1-score   support
+
+         0.0       0.83      0.67      0.74        15
+         1.0       0.74      0.93      0.82        27
+         2.0       0.90      0.75      0.82        24
+
+    accuracy                           0.80        66
+   macro avg       0.82      0.78      0.79        66
+weighted avg       0.82      0.80      0.80        66
+
+#########################################
+Mutation:
+              precision    recall  f1-score   support
+
+         0.0       0.93      1.00      0.96        41
+         1.0       1.00      0.85      0.92        13
+         2.0       1.00      0.92      0.96        12
+
+    accuracy                           0.95        66
+   macro avg       0.98      0.92      0.95        66
+weighted avg       0.96      0.95      0.95        66
+
+#########################################
+XGB:
+---------
+Features selected = 100
+---------
+Disease:
+              precision    recall  f1-score   support
+
+         1.0       0.88      1.00      0.93         7
+         2.0       1.00      0.98      0.99        59
+
+    accuracy                           0.98        66
+   macro avg       0.94      0.99      0.96        66
+weighted avg       0.99      0.98      0.99        66
+
+#########################################
+Risk:
+              precision    recall  f1-score   support
+
+         0.0       0.83      0.67      0.74        15
+         1.0       0.71      0.93      0.81        27
+         2.0       0.95      0.75      0.84        24
+
+    accuracy                           0.80        66
+   macro avg       0.83      0.78      0.79        66
+weighted avg       0.83      0.80      0.80        66
+
+#########################################
+Mutation:
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.95      0.92        41
+         1.0       1.00      0.77      0.87        13
+         2.0       0.83      0.83      0.83        12
+
+    accuracy                           0.89        66
+   macro avg       0.91      0.85      0.87        66
+weighted avg       0.90      0.89      0.89        66
+
+#########################################
